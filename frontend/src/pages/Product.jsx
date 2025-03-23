@@ -185,7 +185,7 @@ const Product = () => {
           <div className='flex gap-4 mt-8'>
             <button onClick={()=>addToCart(productData._id, productData.sizes[0])} className='bg-black text-white px-8 py-3 text-sm active:bg-gray-700'>ADD TO CART</button>
             <button 
-              onClick={() => window.location.href = `../../HTMLs/${productData.name.toLowerCase().replace(/\s+/g, '_')}.html`}
+              onClick={() => window.location.href = `../HTMLs/${productData.name.toLowerCase().replace(/\s+/g, '_')}.html`}
             className='border border-black px-8 py-3 text-sm hover:bg-gray-100'
           >
             VIEW IN AR

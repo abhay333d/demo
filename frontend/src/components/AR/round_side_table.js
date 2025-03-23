@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.appendChild(overlayContainer);
 
     // Load the HTML content
-    fetch("../../HTMLs/round_side_table.html")
+    fetch("../HTMLs/round_side_table.html")
       .then((response) => response.text())
       .then((html) => {
         overlayContainer.innerHTML = html;
